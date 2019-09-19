@@ -30,6 +30,10 @@ Steps
   * Push container images to ECR
   * create ECS cluster (Network only, EC2's created by fargate)
   * create Application Load Balancer - to load balance across multiple AWS Fargate tasks.
+  * Create an ECS Fargate Task ( add the 2 containers) definition 
+  * Create ECS Fargate Service, associate load balancer, container to load balance: reverse proxy
+  * When success -> Load balancer will get 2 targets
+  * Navigate to load balancer dns
 
 
 Docker
