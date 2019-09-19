@@ -23,6 +23,8 @@ namespace mvconecs
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+             services.AddHealthChecks();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,6 +43,8 @@ namespace mvconecs
             app.UseRouting();
 
             app.UseAuthorization();
+
+           app.UseHealthChecks("/health");
 
             app.UseEndpoints(endpoints =>
             {
