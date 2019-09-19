@@ -24,6 +24,10 @@ Steps
   * docker run --rm -d -p 5000:5000/tcp mvccoreecs:latest
   * Add nginx ctainer
   * Add docker compose to test locally
+  * change upstream server for nginx to 127.0.0.1:5000
+  * docker build reverseproxy ctainer
+  * tag images locally (link local <-> remote )
+  * Push container images to ECR
 
 
 Docker
