@@ -28,6 +28,8 @@ Steps
   * docker build reverseproxy ctainer
   * tag images locally (link local <-> remote )
   * Push container images to ECR
+  * create ECS cluster (Network only, EC2's created by fargate)
+  * create Application Load Balancer - to load balance across multiple AWS Fargate tasks.
 
 
 Docker
