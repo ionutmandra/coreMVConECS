@@ -5,7 +5,8 @@ Links
 
 
 
-* Steps
+Steps
+----
   * use VS code
   * dotnet new –l //list available templates
   * dotnet new mvc -n mvconecs --no-https
