@@ -22,6 +22,8 @@ Steps
     ```
   * docker build --rm -f "Dockerfile" -t mvccoreecs:latest . 
   * docker run --rm -d -p 5000:5000/tcp mvccoreecs:latest
+  * Add nginx ctainer
+  * Add docker compose to test locally
 
 
 Docker
@@ -34,3 +36,8 @@ Docker
 | docker logs | check on what port listens |
 | docker build --rm -f "Dockerfile" -t mvccoreecs:latest . | build |
 | docker run --rm -d -p 5000:5000/tcp mvcecs:latest | run app |
+| docker-compose build | |
+| docker-compose up | |
+| docker-compose stop | |
+| docker-compose rm ||
+
