@@ -23,4 +23,4 @@ Docker
     EXPOSE 5000
     ```
   * docker build --rm -f "Dockerfile" -t mvccoreecs:latest . 
-  * docker run --rm -d -p 5000:5000/tcp mvcecs:latest
+  * docker run --rm -d -p 5000:5000/tcp mvccoreecs:latest
