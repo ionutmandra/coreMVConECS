@@ -2,6 +2,7 @@ Links
 -----
 * https://www.alibabacloud.com/blog/developing-asp-net-core-apps-using-visual-studio-code-with-docker-on-simple-application-server_595353
 * https://aws.amazon.com/blogs/compute/hosting-asp-net-core-applications-in-amazon-ecs-using-aws-fargate/
+* https://github.com/aws-samples/amazon-ecs-fargate-aspnetcore/
 
 
 
