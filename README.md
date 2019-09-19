@@ -1,13 +1,9 @@
-Docker
-------
+Links
+-----
+https://www.alibabacloud.com/blog/developing-asp-net-core-apps-using-visual-studio-code-with-docker-on-simple-application-server_595353
+https://aws.amazon.com/blogs/compute/hosting-asp-net-core-applications-in-amazon-ecs-using-aws-fargate/
 
-| Command | Description |
-| --- | --- |
-| docker ps | List ct |
-| docker stop [ctid] | stop |
-| docker logs | check on what port listens |
-| docker build --rm -f "Dockerfile" -t mvccoreecs:latest . | build |
-| docker run --rm -d -p 5000:5000/tcp mvcecs:latest | run app |
+
 
 * Steps
   * use VS code
@@ -24,3 +20,15 @@ Docker
     ```
   * docker build --rm -f "Dockerfile" -t mvccoreecs:latest . 
   * docker run --rm -d -p 5000:5000/tcp mvccoreecs:latest
+
+
+Docker
+------
+
+| Command | Description |
+| --- | --- |
+| docker ps | List ct |
+| docker stop [ctid] | stop |
+| docker logs | check on what port listens |
+| docker build --rm -f "Dockerfile" -t mvccoreecs:latest . | build |
+| docker run --rm -d -p 5000:5000/tcp mvcecs:latest | run app |
